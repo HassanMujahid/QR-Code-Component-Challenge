@@ -1,0 +1,37 @@
+body {
+  background: hsl(212, 45%, 89%);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.card__img {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+}
